@@ -1,0 +1,15 @@
+# test_requirements.txt
+# ---------------------------------------------------------------
+# Sample requirements file with intentionally outdated packages
+# for testing CodeGuard's scan_dependencies tool.
+#
+# These versions are real but outdated — they contain known CVEs
+# that CodeGuard's vulnerability database will detect.
+# Do NOT use these versions in a real project.
+# ---------------------------------------------------------------
+
+requests==2.28.0
+cryptography==41.0.0
+pillow==9.5.0
+flask==2.2.0
+werkzeug==2.3.0
