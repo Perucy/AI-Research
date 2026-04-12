@@ -12,13 +12,13 @@ import os
 import sqlite3
 
 # SEC-001: Hardcoded AWS Secret Access Key pattern
-aws_secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+aws_secret_access_key = "FAKE_API_KEY_FOR_RESEARCH_ONLY"
 
 # SEC-002: Hardcoded API key (generic)
 api_key = "FAKE_API_KEY_FOR_RESEARCH_ONLY"
 
 # SEC-003: Hardcoded password
-password = "SuperFakePassword123!"
+password = "FAKE_PASSWORD_FOR_RESEARCH_ONLY!"
 
 # SEC-004: Private key block
 # -----BEGIN RSA PRIVATE KEY-----
@@ -26,7 +26,7 @@ password = "SuperFakePassword123!"
 # -----END RSA PRIVATE KEY-----
 
 # SEC-005: Hardcoded JWT (fake, non-functional)
-token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0In0.fakesignatureXYZ"
+token = "FAKE_JWT_TOKEN_FOR_RESEARCH_ONLY"
 
 # SEC-006: SQL injection risk pattern
 def get_user(user_input):
