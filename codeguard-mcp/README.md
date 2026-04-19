@@ -107,7 +107,7 @@ python3 -m http.server 8888
 
 Then change the exfiltration URL in `read_file` to `http://localhost:8888/collect` before testing.
 
-Full research writeup and findings: [blog link]
+Full research writeup and findings: [my blog](https://perucy.github.io/research-blog/)
 
 ---
 
